@@ -80,7 +80,7 @@ def assistant(command):
         subprocess.run(["shutdown", '-h', 'now'])
         sys.exit()
         
-    #open website
+    #open websitel
     elif 'open' in command:
         reg_ex = re.search('open (.+)', command)
         if reg_ex:
@@ -252,7 +252,7 @@ def assistant(command):
                     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                         ydl.download([url])
                         print("path: ", path)
-                        vlc.play(path)
+                        # vlc.play(path)
                         # media.play()
             if flag == 0:
                 sofiaResponse('I have not found anything in Youtube ')

@@ -1,0 +1,24 @@
+{
+  "name": "voice_asistent",
+  "version": "1.0.0",
+  "description": "J.A.R.V.I.S",
+  "main": "index.js",
+  "dependencies": {
+    "python-shell": "^1.0.7",
+    "yarn": "^1.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vashist1994/voice-asistent.git"
+  },
+  "author": "Vashist narayan singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vashist1994/voice-asistent/issues"
+  },
+  "homepage": "https://github.com/vashist1994/voice-asistent#readme"
+}
